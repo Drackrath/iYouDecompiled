@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/bg1" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@+id/toolBar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:layout_marginTop="@dimen/status_bar_height" android:minHeight="?attr/actionBarSize" app:layout_constraintTop_toTopOf="0">
+        <ImageButton android:layout_gravity="start" android:id="@+id/ib_back" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/xingzhuang_3" android:paddingStart="5dp" android:paddingEnd="20dp"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/iv_title" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/xingzhuang_14"/>
+        <ImageButton android:layout_gravity="end" android:id="@+id/ib_menu" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/xingzhuang_15" android:paddingStart="20dp" android:paddingEnd="10dp"/>
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout android:id="@+id/fragment_container" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintHeight_percent="0.8" app:layout_constraintTop_toBottomOf="@+id/toolBar" app:layout_constraintVertical_bias="0"/>
+    <FrameLayout android:id="@+id/logo_fragment_container" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/fragment_container"/>
+</android.support.constraint.ConstraintLayout>

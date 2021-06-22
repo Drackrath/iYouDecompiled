@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_device_max">最多只能添加4个设备</string>
+    <string name="added_device_maxed">已添加设备已到最大数量</string>
+    <string name="clear_all_devices">清除所有已连接设备?</string>
+    <string name="device_has_added">设备已添加</string>
+    <string name="fail_to_add_device">设备添加失败</string>
+    <string name="isScanning">正在扫描</string>
+    <string name="is_disconnect_retry_after">正在断开连接 请稍后重试</string>
+    <string name="is_freshing">刷新中…</string>
+    <string name="manufacturer_logo_0" />
+    <string name="manufacturer_logo_2">Dexin</string>
+    <string name="manufacturer_name_cn_0" />
+    <string name="manufacturer_name_cn_2">深圳德鑫能源有限公司</string>
+    <string name="manufacturer_name_en_0" />
+    <string name="manufacturer_name_en_2">Shenzhen Dexin Energy CO.Ltd</string>
+    <string name="no_device_prompt">1:确保你的宝贝已打开 \102:下拉刷新</string>
+    <string name="no_device_scanned">未扫描到设备</string>
+    <string name="no_support_content">此设备不支持广播模式</string>
+    <string name="please_connect_device_first">请先连接设备</string>
+    <string name="prompt">提示:</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="search_devices">搜寻设备</string>
+    <string name="start_scan">开始扫描</string>
+    <string name="submit">确定</string>
+    <string name="turn_on_bluetooth_first">使用前请先打开手机蓝牙</string>
+    <string name="wakeup_hello">小爱你好</string>
+    <string name="wakeup_quick">快点快点</string>
+    <string name="wakeup_slow">慢点慢点</string>
+</resources>
